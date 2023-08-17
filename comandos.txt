@@ -1,0 +1,33 @@
+git init
+git remote add origin git@github.com:efrenxaviergallegos/checkpoint16082023-EfrenGallegos.git
+git branch -M main
+git status
+touch main.js index.html
+git add .
+git status
+git commit -m "commit 01 de EfrenGallegos"
+git push -u origin main
+git checkout -b feature
+mkdir Hardware Software SeguridadInformatica
+ls
+cd Hardware/
+touch resumen.txt
+ls
+cd ..
+git status
+git 
+git commit -m "commit 02 EfrenGallegos"
+git push -u origin feature
+git brach main
+git branch main
+git checkout main
+ls
+mv main.js resumenHardware.txt
+ls
+mv index.html resumenSoftware.txt
+ls
+nano resumenSoftware.txt 
+nano resumenHardware.txt 
+git status
+touch comandos.txt
+history
